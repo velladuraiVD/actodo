@@ -22,7 +22,7 @@ function Signup(props)
     function adduser()
     {
         setusers([...users,{username:eusername,password:epassword}])
-        navigate("/login")
+        navigate("/")
     }
 
 
