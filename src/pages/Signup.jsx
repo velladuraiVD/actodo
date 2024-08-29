@@ -46,7 +46,7 @@ function Signup(props)
                     Sign up
                 </button>
 
-                <p>Don't Have an Account?<Link to={"/login"} className="underline"> Login</Link></p>
+                <p>Don't Have an Account?<Link to={"/"} className="underline"> Login</Link></p>
 
             </div>
 
